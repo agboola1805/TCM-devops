@@ -1,0 +1,28 @@
+GIT AND SOME BASIC COMMANDS
+What is GIT??
+Git is a free and open-source software created in the year 2005 by Linus Torvalds the creator of the Linux operating system kernel. It is one of the most widely known version control systems in the world which can be used to handle small to very large projects with speed and efficiency. It is very fast, secure, easy to learn, provides version history, and collaborative tracking history.
+Some basic terminologies used in Git are as follows:
+1. Repository: This a place/ a container where we store our files. Its often called “repo2 by the daily users. It helps us to store the changes that were made to our existing projects. Examples are project repository, source code repository, Report repository etc.
+2. remote: It’s a repo that is not physically available on the machine, it could be a folder created on the cloud. It serves as a backup if one’s machine crashes or develops fault.
+3. clone: Also known as copy or replicate. It is used to point to an existing repo and make a copy of the repo in a new directory at another location. Its function is to copy information from the remote (cloud) to your local repo.
+4. origin: it’s a remote repository that a project is originally cloned or copied from.
+5. status: It displays information about the current repository status. It details any changes (addition/deletion/update) made on a particular file in the repo.
+6. add: It helps to add a change in the working directory to the staging area. It helps to inform Git that the user wants to include an update to a particular file in the next commit. However, changes are not made to the file until the user runs a commit action.
+7. commit: It is used to save changes to the local repository. 
+8. pull: It is used to fetch and download content from a remote repo and immediately update the local repo to match that content.
+9. conflicts: This arises when multiple members are working on the same file and made changes on the same line, the system will flag a conflict then the user can select the one that has high priority or both.
+10. push: This is the opposite of pull as it updates the remote repo state with our local changes or commits pushed. It’s a simple way of sending updates to the origin.
+11. merge: It’s a way to combine two versions of a file.
+
+Below are some common GIT commands used:
+1.	$ git –version: This command is used to confirm the version of Git available on the user’s PC.
+2.	mkdir directory_name: This command is used to create a directory in the root folder.
+3.	$ git init: This command is used to initialize a new Git repo. It creates a new sub directory named .git file extension which contains all necessary repository files.
+4.	$ git clone: This command is used to clone/copy a repo. It creates a local copy of a remote repo.
+5.	$ add specific_file_name: This command is used to add a specific file.
+6.	$ git commit –m: It creates a new commit with the changes in the staging area and attaches a descriptive message.
+7.	$ git add *: it adds a file or directory to the staging area, preparing it for a commit.
+8.	$ git branch: It lists all branches in a repository.
+9.	$ git pull: It fetches changes from a remote repo and merges them into the current branch.
+10.	$ git push: It pushes local commits to a remote repository.
+
